@@ -1,13 +1,13 @@
 # STRING PALINDROME CONTROL
 
 isPalindrome = False
-
 string = input("Enter a string: ")
-reversed_string = string[::-1]
-if(string == reversed_string):
+
+reverse_string = string[::-1]
+if string == reverse_string:
     isPalindrome = True
 
-if(isPalindrome):
-    print("YES")
-else:
-    print("NO")
+if isPalindrome:
+    print("Palindrome")
+else :
+    print("Not Palindrome")
